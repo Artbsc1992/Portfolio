@@ -78,6 +78,7 @@
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
+  cursor: pointer;
 }
 
 .wtv-section1__flex1-spacer {
@@ -92,6 +93,7 @@
   color: #344563;
   text-align: center;
   letter-spacing: 0px;
+  cursor: pointer;
 }
 
 .wtv-section1__highlights11.layout {
