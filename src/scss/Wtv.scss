@@ -1,0 +1,1327 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$font_type0: 700 18px/1.11 "Poppins", Helvetica, Arial, serif;
+$font_type1: 500 15px/1.33 "Poppins", Helvetica, Arial, serif;
+$font_type2: 700 48px/1.25 "Poppins", Helvetica, Arial, serif;
+$font_type3: 20px/1.4 "Poppins", Helvetica, Arial, serif;
+$font_type4: 500 16px/1.5 "Poppins", Helvetica, Arial, serif;
+$font_type5: 700 40px/1.3 "Poppins", Helvetica, Arial, serif;
+$font_type6: 500 18px/1.33 "Poppins", Helvetica, Arial, serif;
+$font_type7: 18px/1.33 "Poppins", Helvetica, Arial, serif;
+$font_type8: 16px/1.5 "Poppins", Helvetica, Arial, serif;
+$font_type9: 500 12px/1.33 "Poppins", Helvetica, Arial, serif;
+$font_type10: 500 17px/1.41 "Poppins", Helvetica, Arial, serif;
+$font_type11: 500 20px/1.2 "Poppins", Helvetica, Arial, serif;
+$font_type12: 17px/1.17 "Poppins", Helvetica, Arial, serif;
+$font_type13: 15px/1.6 "Poppins", Helvetica, Arial, serif;
+
+.wtv- {
+  &main {
+    @include flex-column;
+    background-color: rgb(244, 245, 247);
+  }
+  &main.layout {
+    position: relative;
+    overflow: hidden;
+  }
+  &section1__section1 {
+    @include flex-column;
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section1__section1.layout {
+    position: relative;
+    height: min-content;
+  }
+  &section1__cover {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section1__cover.layout {
+    position: absolute;
+    top: 1px;
+    height: 916px;
+    width: 1440px;
+    right: 0px;
+  }
+  &section1__flex {
+    @include flex-column;
+    background: var(--src) center center / contain no-repeat;
+    background-color: rgb(255, 255, 255);
+  }
+  &section1__flex.layout {
+    position: relative;
+    height: min-content;
+    margin: 26px 8px;
+  }
+  &section1__flex1 {
+    display: flex;
+  }
+  &section1__flex1.layout {
+    position: relative;
+    height: min-content;
+    width: 79.67%;
+    margin: 0px auto;
+  }
+  &section1__highlights10 {
+    @include v-center-content;
+    justify-content: center;
+    font: $font_type0;
+    color: rgb(96, 112, 255);
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section1__highlights10.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+  }
+  &section1__flex1-spacer {
+    flex: 0 1 816.5px;
+  }
+  &section1__highlights11 {
+    @include v-center-content;
+    justify-content: center;
+    font: $font_type1;
+    color: rgb(52, 69, 99);
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section1__highlights11.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+  }
+  &section1__flex1-spacer1 {
+    flex: 0 1 28.5px;
+  }
+  &section1__flex1-spacer2 {
+    flex: 0 1 28.5px;
+  }
+  &section1__flex1-item {
+    @include flex-column;
+    position: relative;
+  }
+  &section1__cover-block {
+    @include flex-column;
+  }
+  &section1__cover-block.layout {
+    position: relative;
+    height: min-content;
+    margin: 73px 0px 28px 27px;
+  }
+  &section1__flex2 {
+    @include flex-column;
+    width: 100%;
+    height: 100%;
+  }
+  &section1__hero-title2-box {
+    @include v-center-content;
+  }
+  &section1__hero-title2-box.layout {
+    position: relative;
+    height: min-content;
+    margin: 64px 27px 0px 0px;
+  }
+  &section1__hero-title2 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    @include font-face($font_type2, rgb(9, 30, 66), 0.3700000047683716px);
+    white-space: pre-wrap;
+  }
+  &section1__subtitle2 {
+    @include font-face($font_type3, rgb(52, 69, 99), 0px);
+  }
+  &section1__subtitle2.layout {
+    position: relative;
+    height: min-content;
+    margin: 13px 27px 0px 0px;
+  }
+  &section1__highlights4 {
+    @include font-face($font_type4, rgb(127, 140, 255), 0px);
+  }
+  &section1__highlights4.layout {
+    position: relative;
+    height: min-content;
+    margin: 26px 0px 0px;
+  }
+  &section1__flex3 {
+    display: flex;
+  }
+  &section1__flex3.layout {
+    position: relative;
+    height: min-content;
+    margin: 14px 0px 0px;
+  }
+  &section1__flex3-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 20px;
+  }
+  &section1__icon3 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section1__icon3.layout {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+  }
+  &section1__flex3-spacer {
+    flex: 0 1 19px;
+  }
+  &section1__flex3-spacer1 {
+    flex: 0 1 20px;
+  }
+  &section1__image5 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section1__image5.layout {
+    position: relative;
+    height: 16px;
+    width: 20px;
+    min-width: 20px;
+    margin: 2px 0px;
+  }
+  &section1__flex3-spacer2 {
+    flex: 0 1 20px;
+  }
+  &section1__flex3-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 18px;
+  }
+  &section1__image6 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section1__image6.layout {
+    position: relative;
+    height: 20px;
+    width: 18px;
+    min-width: 18px;
+  }
+  &section1__flex3-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 14px;
+  }
+  &section1__image4 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section1__image4.layout {
+    position: relative;
+    height: 20px;
+    width: 14px;
+    min-width: 14px;
+  }
+  &section2__section2 {
+    @include flex-column;
+  }
+  &section2__section2.layout {
+    position: relative;
+    height: min-content;
+  }
+  &section2__flex4 {
+    @include flex-column;
+  }
+  &section2__flex4.layout {
+    position: relative;
+    height: min-content;
+    width: 80.28%;
+    margin: 92px auto;
+  }
+  &section2__cover-block1 {
+    @include flex-column;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(223, 225, 230);
+    border-radius: 24px 24px 24px 24px;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+  &section2__cover-block1:hover {
+    transform: scale(1.1);
+  }
+  &section2__cover-block1.layout {
+    position: relative;
+    height: min-content;
+    margin: 102px 0px 0px;
+  }
+  &section2__flex5 {
+    display: flex;
+    @include lg {
+      flex-wrap: wrap;
+      row-gap: 16px;
+    }
+  }
+  &section2__flex5.layout {
+    position: relative;
+    height: min-content;
+    margin: 24px;
+  }
+  &section2__flex5-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 544px;
+    @include lg {
+      flex: 0 0 100%;
+    }
+  }
+  &section2__cover-group {
+    @include flex-column;
+  }
+  &section2__cover-group.layout {
+    position: relative;
+    height: min-content;
+  }
+  &section2__image1 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section2__image1.layout {
+    position: absolute;
+    top: 0px;
+    height: 192px;
+    left: 0px;
+    right: 0px;
+    margin: 104px 0px 152px;
+  }
+  &section2__cover3 {
+    background: var(--src) center center / contain no-repeat;
+    border-radius: 8px 8px 8px 8px;
+  }
+  &section2__cover3.layout {
+    position: relative;
+    height: 448px;
+  }
+  &section2__flex5-spacer {
+    flex: 0 1 46px;
+    @include lg {
+      display: none;
+    }
+  }
+  &section2__flex5-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 518px;
+    @include lg {
+      flex: 0 0 100%;
+    }
+  }
+  &section2__flex6 {
+    @include flex-column;
+  }
+  &section2__flex6.layout {
+    position: relative;
+    height: min-content;
+    margin: 24px 22px 116px 0px;
+  }
+  &section2__hero-title1 {
+    @include font-face($font_type5, rgb(9, 30, 66), 0px);
+  }
+  &section2__hero-title1.layout {
+    position: relative;
+    height: min-content;
+  }
+  &section2__flex7 {
+    display: flex;
+  }
+  &section2__flex7.layout {
+    position: relative;
+    height: min-content;
+    margin: 14px 0px 0px;
+  }
+  &section2__highlights6 {
+    @include font-face($font_type6, rgb(52, 69, 99), 0px);
+  }
+  &section2__highlights6.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+  }
+  &section2__flex7-spacer {
+    flex: 0 1 7px;
+  }
+  &section2__flex7-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 8px;
+  }
+  &section2__icon {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section2__icon.layout {
+    position: relative;
+    height: 8px;
+    width: 8px;
+    min-width: 8px;
+    margin: 8px 0px;
+  }
+  &section2__flex7-spacer1 {
+    flex: 0 1 12px;
+  }
+  &section2__highlights7 {
+    @include font-face($font_type7, rgb(107, 119, 140), 0px);
+  }
+  &section2__highlights7.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+  }
+  &section2__flex7-spacer2 {
+    flex: 0 1 12px;
+  }
+  &section2__highlights3 {
+    @include font-face($font_type8, rgb(52, 69, 99), 0px);
+  }
+  &section2__highlights3.layout {
+    position: relative;
+    height: min-content;
+    margin: 32px 0px 0px;
+  }
+  &section2__flex8 {
+    display: flex;
+  }
+  &section2__flex8.layout {
+    position: relative;
+    height: min-content;
+    margin: 26px 0px 0px;
+  }
+  &section2__flex8-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 53px;
+  }
+  &section2__block3 {
+    @include flex-column;
+    background-color: rgb(235, 235, 255);
+    border-radius: 8px 8px 8px 8px;
+  }
+  &section2__block3.layout {
+    position: relative;
+    overflow: hidden;
+    height: min-content;
+  }
+  &section2__small-text-body {
+    @include font-face($font_type9, rgb(96, 112, 255), 0.36px);
+  }
+  &section2__small-text-body.layout {
+    position: relative;
+    height: min-content;
+    margin: 4px 8px 4px 12px;
+  }
+  &section2__flex8-spacer {
+    flex: 0 1 8px;
+  }
+  &section2__flex8-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 45px;
+  }
+  &section2__block4 {
+    @include flex-column;
+    background-color: rgb(235, 235, 255);
+    border-radius: 8px 8px 8px 8px;
+  }
+  &section2__block4.layout {
+    position: relative;
+    overflow: hidden;
+    height: min-content;
+  }
+  &section2__flex8-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 89px;
+  }
+  &section2__block5 {
+    @include flex-column;
+    background-color: rgb(235, 235, 255);
+    border-radius: 8px 8px 8px 8px;
+  }
+  &section2__block5.layout {
+    position: relative;
+    overflow: hidden;
+    height: min-content;
+  }
+  &section2__small-text-body.layout1 {
+    position: relative;
+    height: min-content;
+    margin: 4px 9px 4px 12px;
+  }
+  &section2__flex8-item3 {
+    @include flex-column;
+    position: relative;
+  }
+  &section2__block6 {
+    @include flex-column;
+    border: 1px solid rgb(96, 112, 255);
+    border-radius: 8px 8px 8px 8px;
+  }
+  &section2__block6.layout {
+    position: relative;
+    overflow: hidden;
+    height: min-content;
+    min-width: 0px;
+    width: fit-content;
+    margin: 40px auto 0px 0px;
+  }
+  &section2__highlights5 {
+    @include v-center-content;
+    justify-content: center;
+    font: $font_type10;
+    color: rgb(56, 109, 242);
+    text-align: center;
+    letter-spacing: 0.51px;
+  }
+  &section2__highlights5.layout {
+    position: relative;
+    height: min-content;
+    margin: 12px 9.5px;
+  }
+  &section2__cover-block1.layout1 {
+    position: relative;
+    height: min-content;
+    margin: 142px 0px 0px;
+  }
+  &section2__flex9 {
+    display: flex;
+    @include lg {
+      flex-wrap: wrap;
+      row-gap: 16px;
+    }
+  }
+  &section2__flex9.layout {
+    position: relative;
+    height: min-content;
+    margin: 24px;
+  }
+  &section2__flex9-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 544px;
+    @include lg {
+      flex: 0 0 100%;
+    }
+  }
+  &section2__flex9-spacer {
+    flex: 0 1 46px;
+    @include lg {
+      display: none;
+    }
+  }
+  &section2__flex9-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 518px;
+    @include lg {
+      flex: 0 0 100%;
+    }
+  }
+  &section2__flex10 {
+    @include flex-column;
+  }
+  &section2__flex10.layout {
+    position: relative;
+    height: min-content;
+    margin: 24px 22px 116px 0px;
+  }
+  &section2__flex11 {
+    display: flex;
+  }
+  &section2__flex11.layout {
+    position: relative;
+    height: min-content;
+    margin: 14px 0px 0px;
+  }
+  &section2__flex11-spacer {
+    flex: 0 1 7px;
+  }
+  &section2__flex11-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 8px;
+  }
+  &section2__flex11-spacer1 {
+    flex: 0 1 12px;
+  }
+  &section2__flex11-spacer2 {
+    flex: 0 1 12px;
+  }
+  &section2__flex12 {
+    display: flex;
+  }
+  &section2__flex12.layout {
+    position: relative;
+    height: min-content;
+    margin: 26px 0px 0px;
+  }
+  &section2__flex12-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 53px;
+  }
+  &section2__flex12-spacer {
+    flex: 0 1 8px;
+  }
+  &section2__flex12-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 45px;
+  }
+  &section2__flex12-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 89px;
+  }
+  &section2__small-text-body.layout2 {
+    position: relative;
+    height: min-content;
+    margin: 4px 9px 4px 12px;
+  }
+  &section2__flex12-item3 {
+    @include flex-column;
+    position: relative;
+  }
+  &section2__block7 {
+    @include flex-column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 48px 48px 0px rgba(37, 47, 137, 0.0784313725490196);
+    border: 2px solid rgb(167, 174, 255);
+    border-radius: 24px 24px 24px 24px;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+  &section2__block7:hover {
+    transform: scale(1.1);
+  }
+  &section2__block7.layout {
+    position: relative;
+    height: min-content;
+    margin: 142px 0px 0px;
+  }
+  &section2__flex13 {
+    display: flex;
+    @include xxl {
+      flex-wrap: wrap;
+      row-gap: 16px;
+    }
+  }
+  &section2__flex13.layout {
+    position: relative;
+    height: min-content;
+    margin: 24px;
+  }
+  &section2__flex13-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 544px;
+    @include xxl {
+      flex: 0 0 calc(50% - 10px);
+    }
+    @include lg {
+      flex: 0 0 100%;
+    }
+  }
+  &section2__flex13-spacer {
+    flex: 0 1 46px;
+    @include xxl {
+      flex: 0 0 20px;
+    }
+    @include lg {
+      display: none;
+    }
+  }
+  &section2__flex13-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 518px;
+    @include xxl {
+      flex: 0 0 calc(50% - 10px);
+    }
+    @include lg {
+      flex: 0 0 100%;
+    }
+  }
+  &section2__flex14 {
+    @include flex-column;
+  }
+  &section2__flex14.layout {
+    position: relative;
+    height: min-content;
+    margin: 24px 22px 63px 0px;
+  }
+  &section2__flex15 {
+    display: flex;
+  }
+  &section2__flex15.layout {
+    position: relative;
+    height: min-content;
+    margin: 14px 0px 0px;
+  }
+  &section2__flex15-spacer {
+    flex: 0 1 7px;
+  }
+  &section2__flex15-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 8px;
+  }
+  &section2__flex15-spacer1 {
+    flex: 0 1 12px;
+  }
+  &section2__flex15-spacer2 {
+    flex: 0 1 6px;
+  }
+  &section2__flex15-spacer3 {
+    flex: 0 1 12px;
+  }
+  &section2__flex16 {
+    display: flex;
+  }
+  &section2__flex16.layout {
+    position: relative;
+    height: min-content;
+    margin: 22px 0px 0px;
+  }
+  &section2__flex16-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 53px;
+  }
+  &section2__flex16-spacer {
+    flex: 0 1 8px;
+  }
+  &section2__flex16-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 105px;
+  }
+  &section2__block8 {
+    @include flex-column;
+    background-color: rgb(235, 235, 255);
+    border-radius: 8px 8px 8px 8px;
+  }
+  &section2__block8.layout {
+    position: relative;
+    overflow: hidden;
+    height: min-content;
+  }
+  &section2__small-text-body.layout3 {
+    position: relative;
+    height: min-content;
+    margin: 4px 7px 4px 12px;
+  }
+  &section2__flex16-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 45px;
+  }
+  &section2__flex16-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 89px;
+  }
+  &section2__small-text-body.layout4 {
+    position: relative;
+    height: min-content;
+    margin: 4px 9px 4px 12px;
+  }
+  &section2__flex17 {
+    display: flex;
+  }
+  &section2__flex17.layout {
+    position: relative;
+    height: min-content;
+    margin: 40px 0px 0px;
+  }
+  &section2__flex17-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 124px;
+  }
+  &section2__block9 {
+    @include flex-column;
+    background-color: rgb(64, 83, 252);
+    box-shadow: 0px 8px 16px 0px rgba(64, 83, 252, 0.23921568627450981);
+    border-radius: 8px 8px 8px 8px;
+  }
+  &section2__block9.layout {
+    position: relative;
+    overflow: hidden;
+    height: min-content;
+    min-width: 0px;
+    width: fit-content;
+    margin: 0px 0px 33px;
+  }
+  &section2__highlights8 {
+    @include v-center-content;
+    justify-content: center;
+    font: $font_type10;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 0.51px;
+  }
+  &section2__highlights8.layout {
+    position: relative;
+    height: min-content;
+    margin: 12px 9.5px;
+  }
+  &section2__flex17-spacer {
+    flex: 0 1 252px;
+  }
+  &section2__flex17-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 81px;
+  }
+  &section2__icon1 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section2__icon1.layout {
+    position: relative;
+    height: 81px;
+    width: 81px;
+    min-width: 81px;
+  }
+  &section2__flex18 {
+    display: flex;
+    @include lg {
+      flex-wrap: wrap;
+      row-gap: 16px;
+    }
+  }
+  &section2__flex18.layout {
+    position: relative;
+    height: min-content;
+    margin: 24px;
+  }
+  &section2__flex18-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 544px;
+    @include lg {
+      flex: 0 0 100%;
+    }
+  }
+  &section2__flex18-spacer {
+    flex: 0 1 46px;
+    @include lg {
+      display: none;
+    }
+  }
+  &section2__flex18-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 518px;
+    @include lg {
+      flex: 0 0 100%;
+    }
+  }
+  &section2__flex19 {
+    @include flex-column;
+  }
+  &section2__flex19.layout {
+    position: relative;
+    height: min-content;
+    margin: 24px 22px 63px 0px;
+  }
+  &section2__flex20 {
+    display: flex;
+  }
+  &section2__flex20.layout {
+    position: relative;
+    height: min-content;
+    margin: 14px 0px 0px;
+  }
+  &section2__flex20-spacer {
+    flex: 0 1 7px;
+  }
+  &section2__flex20-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 8px;
+  }
+  &section2__flex20-spacer1 {
+    flex: 0 1 12px;
+  }
+  &section2__flex20-spacer2 {
+    flex: 0 1 6px;
+  }
+  &section2__flex20-spacer3 {
+    flex: 0 1 12px;
+  }
+  &section2__flex21 {
+    display: flex;
+  }
+  &section2__flex21.layout {
+    position: relative;
+    height: min-content;
+    margin: 22px 0px 0px;
+  }
+  &section2__flex21-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 53px;
+  }
+  &section2__flex21-spacer {
+    flex: 0 1 8px;
+  }
+  &section2__flex21-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 105px;
+  }
+  &section2__small-text-body.layout5 {
+    position: relative;
+    height: min-content;
+    margin: 4px 7px 4px 12px;
+  }
+  &section2__flex21-item2 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 45px;
+  }
+  &section2__flex21-item3 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 89px;
+  }
+  &section2__small-text-body.layout6 {
+    position: relative;
+    height: min-content;
+    margin: 4px 9px 4px 12px;
+  }
+  &section2__flex22 {
+    display: flex;
+  }
+  &section2__flex22.layout {
+    position: relative;
+    height: min-content;
+    margin: 40px 0px 0px;
+  }
+  &section2__flex22-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 124px;
+  }
+  &section2__flex22-spacer {
+    flex: 0 1 252px;
+  }
+  &section2__flex22-item1 {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 81px;
+  }
+  &section3__section3 {
+    @include flex-column;
+    background-color: rgb(255, 255, 255);
+  }
+  &section3__section3.layout {
+    position: relative;
+    height: min-content;
+  }
+  &section3__cover1 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section3__cover1.layout {
+    position: absolute;
+    top: 21px;
+    height: 924px;
+    width: 1440px;
+    right: 0px;
+  }
+  &section3__flex23 {
+    display: flex;
+    @include md {
+      flex-wrap: wrap;
+      row-gap: 16px;
+    }
+  }
+  &section3__flex23.layout {
+    position: relative;
+    height: min-content;
+    width: 80.28%;
+    margin: 133px auto;
+  }
+  &section3__flex23-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 447px;
+    @include md {
+      flex: 0 0 100%;
+    }
+  }
+  &section3__flex24 {
+    @include flex-column;
+  }
+  &section3__flex24.layout {
+    position: relative;
+    height: min-content;
+    margin: 35px 0px 0px;
+  }
+  &section3__hero-title1-box {
+    @include v-center-content;
+  }
+  &section3__hero-title1-box.layout {
+    position: relative;
+    height: min-content;
+  }
+  &section3__hero-title1 {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    @include font-face($font_type5, rgb(9, 30, 66), 0px);
+    white-space: pre-wrap;
+  }
+  &section3__highlights3 {
+    @include font-face($font_type8, rgb(52, 69, 99), 0px);
+  }
+  &section3__highlights3.layout {
+    position: relative;
+    height: min-content;
+    margin: 17px 0px 0px;
+  }
+  &section3__highlights4 {
+    @include font-face($font_type4, rgb(127, 140, 255), 0px);
+  }
+  &section3__highlights4.layout {
+    position: relative;
+    height: min-content;
+    margin: 18px 0px 0px;
+  }
+  &section3__image {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section3__image.layout {
+    position: relative;
+    height: 40px;
+    width: 44.74%;
+    margin: 16px 55.26% 0px 0%;
+  }
+  &section3__block2 {
+    @include flex-column;
+    border: 1px solid rgb(96, 112, 255);
+    border-radius: 8px 8px 8px 8px;
+  }
+  &section3__block2.layout {
+    position: relative;
+    overflow: hidden;
+    height: min-content;
+    width: 36.24%;
+    margin: 24px 63.76% 0px 0%;
+  }
+  &section3__highlights5 {
+    @include v-center-content;
+    justify-content: center;
+    font: $font_type10;
+    color: rgb(56, 109, 242);
+    text-align: center;
+    letter-spacing: 0.51px;
+  }
+  &section3__highlights5.layout {
+    position: relative;
+    height: min-content;
+    margin: 12px 8.5px;
+  }
+  &section3__flex24-spacer {
+    flex: 0 1 25px;
+    @include md {
+      display: none;
+    }
+  }
+  &section3__flex24-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 684px;
+    @include md {
+      flex: 0 0 100%;
+    }
+  }
+  &section3__flex25 {
+    @include flex-column;
+  }
+  &section3__flex25.layout {
+    position: relative;
+    height: min-content;
+    margin: 54px 0px 32px;
+  }
+  &section3__flex26 {
+    display: flex;
+  }
+  &section3__flex26.layout {
+    position: relative;
+    height: min-content;
+    margin: 0px 24px;
+  }
+  &section3__subtitle1 {
+    @include v-center-content;
+    @include font-face($font_type11, rgb(52, 69, 99), 0px);
+  }
+  &section3__subtitle1.layout {
+    position: relative;
+    flex: 0 0 auto;
+    height: min-content;
+  }
+  &section3__flex26-spacer {
+    flex: 0 1 489px;
+  }
+  &section3__flex26-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 14px;
+  }
+  &section3__image2 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section3__image2.layout {
+    position: relative;
+    height: 8px;
+    width: 14px;
+    min-width: 14px;
+    margin: 8px 0px;
+  }
+  &section3__flex27 {
+    display: flex;
+  }
+  &section3__flex27.layout {
+    position: relative;
+    height: min-content;
+    margin: 36px 12px 0px;
+  }
+  &section3__flex27-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 122px;
+  }
+  &section3__block10 {
+    @include flex-column;
+    background-color: rgb(247, 247, 249);
+    border-radius: 8px 8px 8px 8px;
+  }
+  &section3__block10.layout {
+    position: relative;
+    overflow: hidden;
+    height: min-content;
+  }
+  &section3__flex28 {
+    @include flex-column;
+  }
+  &section3__flex28.layout {
+    position: relative;
+    height: min-content;
+    margin: 12px;
+  }
+  &section3__icon2 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section3__icon2.layout {
+    position: relative;
+    height: 48px;
+    width: 48px;
+    min-width: 48px;
+  }
+  &section3__highlights9 {
+    @include v-center-content;
+    @include font-face($font_type1, rgb(37, 56, 88), 0px);
+  }
+  &section3__highlights9.layout {
+    position: relative;
+    height: min-content;
+    margin: 18px 22px 10px 0px;
+  }
+  &section3__flex28-spacer {
+    flex: 0 1 12px;
+  }
+  &section3__flex28-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 122px;
+  }
+  &section3__highlights9.layout1 {
+    position: relative;
+    height: min-content;
+    margin: 18px 0px 10px;
+  }
+  &section3__highlights9.layout2 {
+    position: relative;
+    height: min-content;
+    margin: 18px 0px 10px;
+  }
+  &section3__flex31 {
+    display: flex;
+  }
+  &section3__flex31.layout {
+    position: relative;
+    height: min-content;
+    margin: 36px 24px 0px;
+  }
+  &section3__flex31-spacer {
+    flex: 0 1 482px;
+  }
+  &section3__flex31-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 8px;
+  }
+  &section3__image3 {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &section3__image3.layout {
+    position: relative;
+    height: 14px;
+    width: 8px;
+    min-width: 8px;
+    margin: 5px 0px;
+  }
+  &section3__line {
+    background-color: rgb(223, 225, 230);
+  }
+  &section3__line.layout {
+    position: relative;
+    height: 1px;
+    margin: 23px 0px 0px;
+  }
+  &section3__flex32 {
+    display: flex;
+  }
+  &section3__flex32.layout {
+    position: relative;
+    height: min-content;
+    margin: 24px 24px 0px;
+  }
+  &section3__flex32-spacer {
+    flex: 0 1 556px;
+  }
+  &section3__flex32-item {
+    @include flex-column;
+    position: relative;
+    flex: 0 1 8px;
+  }
+  &section4__section4 {
+    @include flex-column;
+    background: var(--src) center center / contain no-repeat;
+    background-color: rgb(97, 113, 255);
+  }
+  &section4__section4.layout {
+    position: relative;
+    height: min-content;
+  }
+  &section4__cover-block3 {
+    @include flex-column;
+    width: 100%;
+    height: 100%;
+  }
+  &section4__flex33 {
+    @include flex-column;
+    width: 100%;
+    height: 100%;
+  }
+  &section4__hero-title {
+    @include v-center-content;
+    justify-content: center;
+    font: $font_type5;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  &section4__hero-title.layout {
+    position: relative;
+    height: min-content;
+  }
+  &section4__subtitle-box {
+    @include h-center-content;
+  }
+  &section4__subtitle-box.layout {
+    position: relative;
+    height: min-content;
+    margin: 14px 0px 0px;
+  }
+  &section4__subtitle {
+    overflow: visible;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 0px;
+    font: $font_type3;
+    color: rgb(235, 235, 255);
+    text-align: center;
+    letter-spacing: 0px;
+    white-space: pre-wrap;
+  }
+  &section4__cover-block5 {
+    @include flex-column;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(207, 216, 220);
+    border-radius: 2px 2px 2px 2px;
+  }
+  &section4__cover-block5.layout {
+    position: relative;
+    height: min-content;
+    width: 78.56%;
+    margin: 30px auto 0px;
+  }
+  &section4__highlights {
+    @include v-center-content;
+    @include font-face($font_type12, rgb(23, 43, 77), 0px);
+  }
+  &section4__highlights.layout {
+    position: relative;
+    height: min-content;
+    margin: 14px 16px;
+  }
+  &section4__cover-block5.layout1 {
+    position: relative;
+    height: min-content;
+    width: 78.56%;
+    margin: 27px auto 0px;
+  }
+  &section4__cover-block4 {
+    @include flex-column;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(207, 216, 220);
+    border-radius: 2px 2px 2px 2px;
+  }
+  &section4__cover-block4.layout {
+    position: relative;
+    height: min-content;
+    width: 78.56%;
+    margin: 27px auto 0px;
+  }
+  &section4__highlights1 {
+    @include font-face($font_type13, rgb(179, 186, 197), 0px);
+  }
+  &section4__highlights1.layout {
+    position: relative;
+    height: min-content;
+    margin: 15px 16px 131px;
+  }
+  &section4__flex33-item {
+    @include flex-column;
+    position: relative;
+  }
+  &section4__block1 {
+    @include flex-column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px 8px 8px 8px;
+  }
+  &section4__block1.layout {
+    position: relative;
+    overflow: hidden;
+    height: min-content;
+    min-width: 0px;
+    width: fit-content;
+    margin: 27px auto 14px;
+  }
+  &section4__highlights2 {
+    @include v-center-content;
+    justify-content: center;
+    font: $font_type10;
+    color: rgb(96, 112, 255);
+    text-align: center;
+    letter-spacing: 0.51px;
+  }
+  &section4__highlights2.layout {
+    position: relative;
+    height: min-content;
+    margin: 12px 13.5px;
+  }
+}
